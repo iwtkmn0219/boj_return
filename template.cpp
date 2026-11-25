@@ -23,6 +23,9 @@
 #define VOUTPUT(v)                               \
     REP(i, 0, v.size()) { cout << v[i] << " "; } \
     cout << endl
+#define VOUTPUTENDL(v)                            \
+    REP(i, 0, v.size()) { cout << v[i] << endl; } \
+    cout << endl
 #define V2DINPUT(v, n, m) \
     REP(i, 0, n)          \
     {                     \
