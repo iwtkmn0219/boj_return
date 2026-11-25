@@ -53,6 +53,16 @@
 
 using namespace std;
 
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<vi> vvi;
+typedef vector<string> vs;
+typedef pair<int, int> pi;
+struct point
+{
+    int x, y;
+};
+
 /*
  * 문제 아이디어
  *
